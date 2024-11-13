@@ -1,0 +1,219 @@
+/* 
+ホーム画面
+*/
+.calendar-upper-wrap h1,
+.calendar-upper-wrap input[type=button] {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.calendar-upper-wrap input[type=button] {
+    width: 30px;
+    height: 30px;
+}
+
+.calendar-wrap table {
+    border: solid #000000 1px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.calendar-wrap table th,
+.calendar-wrap table td {
+    width: 30px;
+    height: 30px;
+    border: solid #000000 1px;
+}
+
+.calendar-wrap table td.calendar-td,
+.calendar-wrap table td.calendar-td input[type=submit] {
+    cursor: pointer;
+}
+
+.calendar-wrap table th:first-child,
+.calendar-wrap table td:first-child input[type=submit] {
+    color: #ff0000;
+}
+
+.calendar-wrap table th:last-child,
+.calendar-wrap table td:last-child input[type=submit] {
+    color: #0000ff;
+}
+
+.calendar-wrap table td.today input[type=submit] {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
+
+.calendar-wrap table td.not-this-month {
+    padding: 10px;
+}
+
+.calendar-wrap table td.trained {
+    background: url('./img/check_mark.png');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.calendar-wrap table td input[type=submit] {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+}
+
+.home-btn-wrap input[type=button],
+.home-btn-wrap input[type=submit] {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* 
+種目管理画面,
+メニュー管理画面,
+種目登録画面,
+メニュー登録画面,
+トレーニング登録画面,
+トレーニング詳細登録画面
+*/
+.exercise-upper-btn-wrap input[type=button],
+.menu-upper-btn-wrap input[type=button] {
+    width: 100px;
+    height: 30px;
+}
+
+.exercise-table-wrap,
+.menu-table-wrap,
+.exercise-input-table-wrap,
+.workout-input-table-wrap,
+.menu-name-table-wrap,
+.menu-input-table-wrap,
+.workoutdate-table-wrap,
+.workout-detail-input-table-wrap {
+    margin: 10px 0;
+}
+
+.exercise-table-wrap table,
+.menu-table-wrap table,
+.exercise-input-table-wrap table,
+.workout-input-table-wrap table,
+.menu-name-table-wrap table,
+.menu-input-table-wrap table,
+.workoutdate-table-wrap table,
+.workout-detail-input-table-wrap table {
+    border: solid #000000 1px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.exercise-table-wrap table td,
+.exercise-table-wrap table th,
+.menu-table-wrap table td,
+.menu-table-wrap table th,
+.exercise-input-table-wrap table td,
+.exercise-input-table-wrap table th,
+.workout-input-table-wrap table td,
+.workout-input-table-wrap table th,
+.menu-name-table-wrap table td,
+.menu-name-table-wrap table th,
+.menu-input-table-wrap table td,
+.menu-input-table-wrap table th,
+.workoutdate-table-wrap table td,
+.workoutdate-table-wrap table th,
+.workout-detail-input-table-wrap table td,
+.workout-detail-input-table-wrap table th {
+    width: 300px;
+    height: 30px;
+    border: solid #000000 1px;
+    text-align: center;
+}
+
+.exercise-table-wrap table th,
+.menu-table-wrap table th,
+.workout-detail-input-table-wrap table th {
+    background-color: #bbdbf3;
+}
+
+.exercise-table-wrap table th:last-child,
+.exercise-table-wrap table td:last-child,
+.menu-table-wrap table th:last-child,
+.menu-table-wrap table td:last-child {
+    width: 106px;
+    height: 30px;
+    border: solid #000000 1px;
+}
+
+.exercise-table-wrap table td:last-child input[type=submit],
+.menu-table-wrap table td:last-child input[type=submit] {
+    float: left;
+    margin: 5px;
+}
+
+/*  
+種目登録画面,
+メニュー登録画面,
+トレーニング登録画面,
+トレーニング詳細登録画面
+*/
+.exercise-input-table-wrap table th:first-child,
+.menu-name-table-wrap table th:first-child,
+.menu-input-table-wrap table th,
+.workout-input-table-wrap table th:first-child,
+.workoutdate-table-wrap table th:first-child {
+    background-color: #bbdbf3;
+}
+
+.exercise-input-table-wrap table td:last-child input[type=text],
+.exercise-input-table-wrap table td:last-child select,
+.menu-name-table-wrap table td input[type=text],
+.manu-input-table-wrap table td:last-child input[type=text],
+.menu-input-table-wrap table td select,
+.workout-input-table-wrap table td:last-child select {
+    display: block;
+    width: 90%;
+    margin-left: 5px;
+}
+
+.workout-input-table-wrap table td:last-child p,
+.workoutdate-table-wrap table th:last-child p,
+.workout-detail-input-table-wrap table td.td-weight p,
+.workout-detail-input-table-wrap table td.td-reps p {
+    margin: 0;
+}
+
+.exercise-input-lower-btn-wrap input[type=button],
+.exercise-input-lower-btn-wrap input[type=submit],
+.menu-input-lower-btn-wrap input[type=button],
+.menu-input-lower-btn-wrap input[type=submit],
+.workout-input-lower-btn-wrap input[type=button],
+.workout-input-lower-btn-wrap input[type=submit],
+.workout-detail-input-lower-btn-wrap input[type=button],
+.workout-detail-input-lower-btn-wrap input[type=submit] {
+    width: 100px;
+    height: 30px;
+}
+
+/* 
+トレーニング詳細登録画面
+*/
+.workout-detail-input-table-wrap table td.td-weight input[type=text],
+.workout-detail-input-table-wrap table td.td-weight p,
+.workout-detail-input-table-wrap table td.td-reps input[type=text],
+.workout-detail-input-table-wrap table td.td-reps p {
+    display: inline-block;
+}
+
+.workout-detail-input-table-wrap table td.td-has-item {
+    border-bottom: none;
+}
+
+.workout-detail-input-table-wrap table td.td-has-no-item {
+    border-top: none;
+    border-bottom: none;
+}
